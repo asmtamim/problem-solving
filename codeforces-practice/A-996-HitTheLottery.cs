@@ -12,10 +12,10 @@ namespace Codeforces
 
             for (int i = 0; i < 5; i++)
             {
-                int temp = (N / arr[i]);
+                int temp = (N / arr[i]); 
                 bills = bills + temp;
 
-                N = (N % arr[i]);
+                N = (N % arr[i]); // Remainder
             }
             Console.WriteLine(bills);
         }
