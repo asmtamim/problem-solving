@@ -14,12 +14,38 @@ namespace ConsoleApp
     {
         public static void Main(string[] args)
         {
+            //__Basic Problems__ 
             //FactorialNumber.Run(); 
             //IntArraySort.Run(); 
             //Swap2Numbers.Run();
-            //StringReverse.Run();
+            //StringReverse.Run(); 
             //LeapYear.Run();
-            Fibonacci.Run();
+            //Fibonacci.Run();
+            //PrimeBetween.Run();
+            //PrimeOrNot.Run();
+            //BubbleSort.Run();
+            //InsertionSort.Run();
+            //FindNumberOfDigits.Run();
+            SumProductOfDigits.Run();
+
+
+
+            //__CodeChef__
+
+
+
+
+            //__Codeforces__
+
+
+
+
+
+            //__LeetCode__
+
+
+
+
         }
     }
 }
