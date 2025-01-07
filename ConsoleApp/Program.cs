@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConsoleApp.DSA;
 using ConsoleApp.LeetCode;
 using ConsoleApp.CodeChef;
 using ConsoleApp.Codeforces;
@@ -26,7 +27,7 @@ namespace ConsoleApp
             //BubbleSort.Run();
             //InsertionSort.Run();
             //FindNumberOfDigits.Run();
-            SumProductOfDigits.Run();
+            //SumProductOfDigits.Run();
 
 
 
