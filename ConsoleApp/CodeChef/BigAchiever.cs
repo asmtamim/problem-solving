@@ -29,7 +29,7 @@ namespace ConsoleApp.CodeChef
                         Console.Write("0 ");
                     }
                 }
-                Console.WriteLine();
+                Console.WriteLine(); 
             }
         }
     }
