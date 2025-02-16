@@ -1,9 +1,14 @@
 ﻿using System;
-namespace Codeforces
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp.Codeforces
 {
-    public class HitTheLottery
+    internal class A996_HitTheLottery
     {
-        public static void Main(string[] args)
+        public static void Run()
         {
             int[] arr = { 100, 20, 10, 5, 1 };
             int N = int.Parse(Console.ReadLine());

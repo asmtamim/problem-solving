@@ -1,9 +1,14 @@
 ﻿using System;
-namespace Codeforces
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp.Codeforces
 {
-    public class BMakeAP
+    internal class B1624_MakeAP
     {
-        public static void Main(string[] args)
+        public static void Run()
         {
             int T = int.Parse(Console.ReadLine());
 
@@ -18,25 +23,25 @@ namespace Codeforces
 
                 long m = -1;
 
-                if ((2*b-c) % a == 0 && (2*b-c) > 0)
+                if ((2 * b - c) % a == 0 && (2 * b - c) > 0)
                 {
-                    m = (2*b-c) / a;
+                    m = (2 * b - c) / a;
                 }
-                else if ((a+c) % (2*b) == 0)
+                else if ((a + c) % (2 * b) == 0)
                 {
-                    m = (a+c) / (2*b);
+                    m = (a + c) / (2 * b);
                 }
-                else if ((2*b-a) % c == 0 && (2*b-a) > 0)
+                else if ((2 * b - a) % c == 0 && (2 * b - a) > 0)
                 {
-                    m = (2*b-a) / c;
+                    m = (2 * b - a) / c;
                 }
 
-
-
-                if (m == -1){
+                if (m == -1)
+                {
                     Console.WriteLine("NO");
                 }
-                else{
+                else
+                {
                     Console.WriteLine("YES");
                 }
 

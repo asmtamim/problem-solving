@@ -1,9 +1,14 @@
 ﻿using System;
-namespace Codeforces
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp.Codeforces
 {
-    public class AntonAndLetters
+    internal class A443_AntonAndLetters
     {
-        public static void Main(string[] args)
+        public static void Run()
         {
             string str = Console.ReadLine();
 
@@ -16,7 +21,7 @@ namespace Codeforces
                         break;
                 }
 
-                if ((i == j) && str[i]>='a' && str[i]<='z')
+                if ((i == j) && str[i] >= 'a' && str[i] <= 'z')
                     num++;
             }
 

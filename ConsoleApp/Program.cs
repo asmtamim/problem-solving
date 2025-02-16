@@ -15,7 +15,8 @@ namespace ConsoleApp
     {
         public static void Main(string[] args)
         {
-            //__Basic Problems__ 
+            //__Basic Problems__// 
+
             //FactorialNumber.Run(); 
             //IntArraySort.Run(); 
             //Swap2Numbers.Run();
@@ -31,18 +32,26 @@ namespace ConsoleApp
 
 
 
-            //__CodeChef__
-            BigAchiever.Run();
+            //__CodeChef__//
+
+            //BigAchiever.Run();
 
 
 
-            //__Codeforces__
+            //__Codeforces__//
+
+            A112_PetyaAndStrings.Run();
+            //A1154_RestoringThreeNumbers.Run();
+            //A443_AntonAndLetters.Run();
+            //A996_HitTheLottery.Run();
+            //B1624_MakeAP.Run();
 
 
 
 
+            //__LeetCode__//
 
-            //__LeetCode__
+
 
 
 

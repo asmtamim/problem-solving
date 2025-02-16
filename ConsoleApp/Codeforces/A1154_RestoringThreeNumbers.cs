@@ -1,9 +1,14 @@
 ﻿using System;
-namespace Codeforces
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp.Codeforces
 {
-    public class RestoringThreeNumbers
+    internal class A1154_RestoringThreeNumbers
     {
-        public static void Main(string[] args)
+        public static void Run()
         {
             string[] values = Console.ReadLine().Split(' ');
             int[] arr = new int[4];
@@ -18,7 +23,7 @@ namespace Codeforces
             int b = arr[2] - c;
             int a = arr[3] - (b + c);
 
-            Console.WriteLine("{0} {1} {2}",a,b,c);
+            Console.WriteLine("{0} {1} {2}", a, b, c);
         }
     }
 }
